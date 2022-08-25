@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,400;0,500;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,800;1,700&display=swap');
+
+/*
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+*/
+.ff-Montserrat
+{
+    font-family: 'Montserrat', sans-serif;
+}
+.fsty-italic
+{
+    font-style: italic;
+    font-weight: normal!important;
+    color: #333;
+}
+.color-red
+{
+    color: #ec2d4f!important;
+}
+
+.nav-menu-a
+{
+    color: #777;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+.navSection
+{
+    background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(51,15,86,1) 0%, rgba(198,59,235,1) 0%, rgba(182,72,237,1) 0%, rgba(177,53,214,1) 0%, rgba(63,39,124,1) 18%);
+    padding: 10px 0;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+}
+
+span i{
+    color: #ec2d4f;
+}
+
+/*.nav1right li  a  {*/
+/*    border-right:1px solid #fff;*/
+/*}*/
+/*  BAneer Section */
+
+.bannaer
+{
+    background-image: url("../image/1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover!important;
+    position: relative;
+    height: 70vh;
+}
+.banner-heading {
+    text-align: right;
+    position: absolute;
+    top: 25%;
+    right: 15%;
+}
+
+.banner-heading h1{
+    font-size: 64px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+.banner-heading h3{
+    font-size: 25px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+.getStarted
+{
+    background: #00286a;
+    border: 2px solid #00286a!important;
+    margin: 25px;
+    padding: 10px 35px;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
+}
+.getStarted:hover
+{
+    background: transparent;
+    color: #00286a;
+    border: 2px solid black!important;
+    transition: 1s;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+/*  Welcome */
+
+.welcome h2
+{
+    font-size: 32px;
+    font-weight: 700;
+}
+.welcomeHead
+{
+    position: relative;
+}
+
+.welcome h2:before {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 62px;
+    height: 3px;
+    bottom: 0;
+    top: 45px;
+    left: 47%;
+    border-top: #ec2d4f dashed 3px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+/*sercice  */
+.service-card i{
+   color: #870F87;
+}
+
+.clients .clientsLogo img
+{
+    height: 50%;
+    width: 100%;
+}
+
