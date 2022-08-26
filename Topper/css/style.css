@@ -26,7 +26,8 @@
 {
     color: #777;
     font-family: 'Raleway', sans-serif;
-    font-weight: 600;
+    font-size: 14px;
+    font-weight: 700;
 }
 .navSection
 {
@@ -34,6 +35,14 @@
     padding: 10px 0;
     font-size: 14px;
     font-family: "Open Sans", sans-serif;
+}
+
+.logo
+{
+    font-size: 42px!important;
+    font-weight: bolder!important;
+    font-family: 'Montserrat', sans-serif;
+    color: #ec2d4f;
 }
 
 span i{
@@ -129,3 +138,86 @@ span i{
     width: 100%;
 }
 
+/*Portfolio*/
+.portfolio
+{
+    background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(70,16,85,1) 0%, rgba(198,59,235,1) 0%, rgba(182,72,237,1) 0%, rgba(208,58,252,1) 7%, rgba(63,39,124,1) 20%);
+}
+.portfolio .portfolioCard
+{
+    /*background-image: url("../image/portfolio/1.jpg");*/
+    /*background-size: cover;*/
+    /*background-position: center;*/
+    /*background-repeat: no-repeat;*/
+    position: relative;
+}
+.portfolio .portfolioCard h3 {
+    margin: 0 55px;
+    position: absolute;
+    top: 25%;
+    right: 10%;
+    background: #333333;
+    opacity: .7;
+    padding: 13px;
+    border: 2px solid #ffffff;
+    font-size: 26px;
+}
+
+
+.testimonials .testimonial-card> p
+{
+    border-radius: 15px 15px 0 15px;
+    background: #e2e2f3;
+}
+.get-service
+{
+    background: #001d42;
+}
+.get-service a {
+    background: transparent;
+    color: #fff;
+    border: 3px solid #fff;
+    border-radius: 0;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 7px 30px;
+}
+.get-service a:hover
+{
+    background: #ec2d4f;
+    color: #fff;
+    border: 3px solid #ec2d4f;
+}
+
+.team .teamImg
+{
+    border-bottom: 5px solid #ec2d4f;
+    max-width: 100%;
+}
+.team .imgInfo p{
+    font-style: italic;
+}
+.team .teamLink a {
+    border: 2px solid #939292;
+    padding: 3px 12px;
+}
+.team .teamLink a i{
+    color: #939292;
+}
+
+.contact .sendBtn
+{
+    position: relative;
+    right: -85%;
+    background: #ec2d4f;
+}
+
+.contact .sendBtn:hover
+{
+    background: #2a1c6f;
+}
+
+.footer
+{
+    background: #2a1c6f;
+}
